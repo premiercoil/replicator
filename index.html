@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <title>Replicator</title>
+
+        <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+        <link type="text/css" rel="stylesheet" href="css/bulma.css" />
+    </header>
+
+    <body>
+        <h1 class="label label-primary thing">Replicator Testor</h1>
+
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child">
+                            Box #1
+                        </article>
+                        <article class="tile is-child">
+                            Box #2
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent">
+                        <article class="tile is-child">
+                            Box #3
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <article class="tile is-child">
+                        Box #4
+                    </article>
+                </div>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child">
+                    Box #5
+                </article>
+            </div>
+        </div>
+
+        <!--<script src="js/mithril.js"></script>-->
+        <script src="js/pouchdb.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

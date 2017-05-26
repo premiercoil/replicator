@@ -1,0 +1,30 @@
+{
+  "name": "replicator",
+  "version": "1.0.0",
+  "description": "Test app for remote functionality",
+  "main": "index.js",
+  "bin": {
+    "replicator": "app.js"
+  },
+  "scripts": {
+    "build": "webpack src/index.js bin/app.js -p"
+    ,
+    "start": "webpack src/index.js bin/app.js -d --watch"
+    ,
+    "test": "budo --live --open index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premiercoil/replicator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/premiercoil/replicator/issues"
+  },
+  "homepage": "https://github.com/premiercoil/replicator#readme",
+  "dependencies": {
+    "mithril": "^1.1.1"
+  }
+}

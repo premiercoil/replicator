@@ -1,8 +1,9 @@
+
 var count = 0
 
-var DB = new PouchDB('http://localhost:5984/test')
+// var DB = new PouchDB('http://localhost:5984/test')
 
-var root = document.body
+var root = document.getElementById('mainContent')
 
 var Hello = {
     view: ()=>{
